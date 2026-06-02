@@ -1,7 +1,7 @@
-# Write a program which finds out whether a given name is present in a list or not.
-names = ["Shahzaib","Saim"]
+# Write a program which finds out whether a given name is present in a list or not
+name = ["Shahzaib","Munawar","Yashir"]
 target = "Shahzaib"
-if(target in names):
-    print("Present");
+if target in name:
+    print("Exist")
 else:
-    print("Not Present")
+    print("Dont Exist")    

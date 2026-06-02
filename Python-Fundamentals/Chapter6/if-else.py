@@ -1,1 +1,0 @@
-# refer to the code in smit class 5 and 6 as we knew that so we didnt repeated it i have included it too

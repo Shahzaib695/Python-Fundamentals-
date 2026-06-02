@@ -4,7 +4,6 @@ for i in range (0,4):
 # for i in range (0,50,2):
 #     print(i);
 # last me 2 ka matlab 2 2 chorke
-
 # printing list and tuples
 # l = [1, "Harry", "Shahzaib", False, True, 0.23];
 # for i in l:

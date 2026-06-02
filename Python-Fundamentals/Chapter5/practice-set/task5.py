@@ -1,5 +1,4 @@
 # s = {}
 # What is the type of 's'?
-# dictionary
-s = {};
-print(s,type(s));
+s = {}
+print(type(s))

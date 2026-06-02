@@ -5,16 +5,19 @@
 # 60 – 70 =>C
 # 50 – 60 => D
 # <50 => F
-grade = float(input("Enter Your Percentage:\n"));
-if(grade >= 90 ):
-    print("EX");
-elif(grade >= 80):
-    print("A");
-elif(grade >= 70):
-    print("B");
-elif(grade >= 60):
-    print('C');
-elif(grade >= 50):
-    print('D');
+marks = int(input("Enter Your Marks Out Of 100 \n"))
+if marks > 100:
+    print("Invalid Marks")
+elif marks >= 90:
+    grade = "Ex"
+elif marks >= 80:
+    grade = "A"
+elif marks >= 70:
+    grade = "B"
+elif marks >= 60:
+    grade = "C"
+elif marks >= 50:
+    grade = "D"
 else:
-    print("F");
+   grade = "F";
+print(grade)
